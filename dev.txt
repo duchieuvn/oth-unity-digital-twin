@@ -1,0 +1,4 @@
+Hi guys
+DEV branch is the official branch for our team
+
+!!!Do not commit to MAIN branch
