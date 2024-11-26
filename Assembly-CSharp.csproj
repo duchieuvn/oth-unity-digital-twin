@@ -64,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Conveyor.cs" />
-    <Compile Include="Assets/Prefab/move.cs" />
+    <Compile Include="Assets/move.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

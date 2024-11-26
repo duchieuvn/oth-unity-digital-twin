@@ -361,7 +361,7 @@
 -analyzer:"/opt/unityeditors/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/opt/unityeditors/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Conveyor.cs"
-"Assets/Prefab/move.cs"
+"Assets/move.cs"
 -langversion:9.0
 /deterministic
 /optimize+
