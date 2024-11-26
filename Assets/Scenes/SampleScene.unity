@@ -7770,7 +7770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ac0b495fc5e9904c9c30b7bbe728d0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDistance: 500
+  moveDistance: 200
   moveSpeed: 20
 --- !u!64 &1169709690
 MeshCollider:
