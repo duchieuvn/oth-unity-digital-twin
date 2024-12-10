@@ -1,0 +1,1743 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.50f1 (c3db7f8bf9b1) revision 12835711'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16122 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Hub\Editor\2022.3.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/UMANG/Documents/GitHub/oth-unity-digital-twin
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50765
+Successfully changed project path to: C:/Users/UMANG/Documents/GitHub/oth-unity-digital-twin
+C:/Users/UMANG/Documents/GitHub/oth-unity-digital-twin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13448]  Target information:
+
+Player connection [13448]  * "[IP] 192.168.121.34 [Port] 0 [Flags] 2 [Guid] 3691096722 [EditorId] 3691096722 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JU6IPQG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13448] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13448] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 45.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+[Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/UMANG/Documents/GitHub/oth-unity-digital-twin/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX450 (ID=0x1f97)
+    Vendor:   NVIDIA
+    VRAM:     1906 MB
+    Driver:   32.0.15.5612
+Initialize mono
+Mono path[0] = 'D:/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.039801 seconds.
+- Loaded All Assemblies, in  1.839 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1054 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.934 seconds
+Domain Reload Profiling: 4774ms
+	BeginReloadAssembly (498ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (182ms)
+	RebuildNativeTypeToScriptingClass (59ms)
+	initialDomainReloadingComplete (283ms)
+	LoadAllAssembliesAndSetupDomain (815ms)
+		LoadAssemblies (499ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (803ms)
+			TypeCache.Refresh (797ms)
+				TypeCache.ScanAssembly (736ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (2937ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2639ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1607ms)
+			SetLoadedEditorAssemblies (26ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (681ms)
+			ProcessInitializeOnLoadMethodAttributes (313ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.253 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.008 seconds
+Domain Reload Profiling: 7253ms
+	BeginReloadAssembly (665ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (181ms)
+	RebuildNativeTypeToScriptingClass (64ms)
+	initialDomainReloadingComplete (182ms)
+	LoadAllAssembliesAndSetupDomain (2149ms)
+		LoadAssemblies (1514ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1016ms)
+			TypeCache.Refresh (903ms)
+				TypeCache.ScanAssembly (743ms)
+			ScanForSourceGeneratedMonoScriptInfo (86ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (4011ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3012ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (84ms)
+			SetLoadedEditorAssemblies (29ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (532ms)
+			ProcessInitializeOnLoadAttributes (2248ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 19.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3504 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (95.8 KB). Loaded Objects now: 3975.
+Memory consumption went from 133.3 MB to 133.2 MB.
+Total: 11.110800 ms (FindLiveObjects: 0.843400 ms CreateObjectMapping: 0.536700 ms MarkObjects: 9.603400 ms  DeleteObjects: 0.125200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.268 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.498 seconds
+Domain Reload Profiling: 7755ms
+	BeginReloadAssembly (694ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (145ms)
+	RebuildCommonClasses (187ms)
+	RebuildNativeTypeToScriptingClass (62ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (1195ms)
+		LoadAssemblies (1478ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (5499ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2911ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (108ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (547ms)
+			ProcessInitializeOnLoadAttributes (2124ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Script is not up to date after domain reload: guid(db9f07da68309f047a5698e9c8ce80ca) path("Assets/VacuumHead.cs") state(2)
+Refreshing native plugins compatible for Editor in 17.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3477 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (67.6 KB). Loaded Objects now: 3978.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 11.657100 ms (FindLiveObjects: 0.515400 ms CreateObjectMapping: 0.366600 ms MarkObjects: 10.474800 ms  DeleteObjects: 0.297000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: fcc34a144341e5bd7f312be2669d8226 -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15250.704712 seconds.
+  path: Assets/VacuumHead.cs
+  artifactKey: Guid(db9f07da68309f047a5698e9c8ce80ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VacuumHead.cs using Guid(db9f07da68309f047a5698e9c8ce80ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3640355067f02d34ccecd3e1908aeba9') in 0.008181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.136 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.473 seconds
+Domain Reload Profiling: 7602ms
+	BeginReloadAssembly (596ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (119ms)
+	RebuildCommonClasses (175ms)
+	RebuildNativeTypeToScriptingClass (60ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (1189ms)
+		LoadAssemblies (1413ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (35ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (5475ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2955ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (104ms)
+			SetLoadedEditorAssemblies (27ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (568ms)
+			ProcessInitializeOnLoadAttributes (2154ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 15.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3477 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (67.6 KB). Loaded Objects now: 3982.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 10.869200 ms (FindLiveObjects: 0.539200 ms CreateObjectMapping: 0.258200 ms MarkObjects: 9.802500 ms  DeleteObjects: 0.266300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 88f61f4378075a915493579dd83586ef -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.248 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.541 seconds
+Domain Reload Profiling: 7779ms
+	BeginReloadAssembly (651ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (112ms)
+	RebuildCommonClasses (152ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (144ms)
+	LoadAllAssembliesAndSetupDomain (1242ms)
+		LoadAssemblies (1503ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (39ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (45ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (5543ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2955ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (97ms)
+			SetLoadedEditorAssemblies (19ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (549ms)
+			ProcessInitializeOnLoadAttributes (2180ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 14.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (67.6 KB). Loaded Objects now: 3986.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 10.974400 ms (FindLiveObjects: 0.514300 ms CreateObjectMapping: 0.262200 ms MarkObjects: 10.025500 ms  DeleteObjects: 0.170300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.256 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 21.941 seconds
+Domain Reload Profiling: 25189ms
+	BeginReloadAssembly (827ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (143ms)
+	RebuildCommonClasses (235ms)
+	RebuildNativeTypeToScriptingClass (72ms)
+	initialDomainReloadingComplete (136ms)
+	LoadAllAssembliesAndSetupDomain (1973ms)
+		LoadAssemblies (2323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (39ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (53ms)
+			ResolveRequiredComponents (43ms)
+	FinalizeReload (21946ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (18344ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (107ms)
+			SetLoadedEditorAssemblies (29ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (585ms)
+			ProcessInitializeOnLoadAttributes (15094ms)
+			ProcessInitializeOnLoadMethodAttributes (2499ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (65ms)
+Script is not up to date after domain reload: guid(5ba286e17c1cadc498ccdbfb4a1c45f9) path("Assets/HorizontalPoleMovement.cs") state(2)
+Refreshing native plugins compatible for Editor in 135.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3478 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (83.7 KB). Loaded Objects now: 3988.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 77.744200 ms (FindLiveObjects: 2.614200 ms CreateObjectMapping: 2.530400 ms MarkObjects: 71.596300 ms  DeleteObjects: 0.992800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 20.105 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 26.134 seconds
+Domain Reload Profiling: 45990ms
+	BeginReloadAssembly (10025ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (196ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (606ms)
+	RebuildCommonClasses (967ms)
+	RebuildNativeTypeToScriptingClass (328ms)
+	initialDomainReloadingComplete (768ms)
+	LoadAllAssembliesAndSetupDomain (7761ms)
+		LoadAssemblies (15405ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (651ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (341ms)
+			ResolveRequiredComponents (120ms)
+	FinalizeReload (26140ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (10446ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (776ms)
+			SetLoadedEditorAssemblies (166ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2341ms)
+			ProcessInitializeOnLoadAttributes (6867ms)
+			ProcessInitializeOnLoadMethodAttributes (261ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (108ms)
+Refreshing native plugins compatible for Editor in 53.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (75.7 KB). Loaded Objects now: 3992.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 27.041200 ms (FindLiveObjects: 1.035700 ms CreateObjectMapping: 0.748300 ms MarkObjects: 24.803700 ms  DeleteObjects: 0.447800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 16.655 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 16.149 seconds
+Domain Reload Profiling: 32722ms
+	BeginReloadAssembly (4008ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (140ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (668ms)
+	RebuildCommonClasses (1290ms)
+	RebuildNativeTypeToScriptingClass (452ms)
+	initialDomainReloadingComplete (925ms)
+	LoadAllAssembliesAndSetupDomain (9891ms)
+		LoadAssemblies (11408ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (712ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (516ms)
+	FinalizeReload (16154ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6168ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (204ms)
+			SetLoadedEditorAssemblies (55ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1012ms)
+			ProcessInitializeOnLoadAttributes (4666ms)
+			ProcessInitializeOnLoadMethodAttributes (206ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (76ms)
+Refreshing native plugins compatible for Editor in 47.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (91.8 KB). Loaded Objects now: 3995.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 24.924200 ms (FindLiveObjects: 1.471700 ms CreateObjectMapping: 0.880700 ms MarkObjects: 21.933100 ms  DeleteObjects: 0.633700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.751 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 18.997 seconds
+Domain Reload Profiling: 23741ms
+	BeginReloadAssembly (699ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (158ms)
+	RebuildCommonClasses (183ms)
+	RebuildNativeTypeToScriptingClass (55ms)
+	initialDomainReloadingComplete (130ms)
+	LoadAllAssembliesAndSetupDomain (3673ms)
+		LoadAssemblies (3706ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (330ms)
+			TypeCache.Refresh (83ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (223ms)
+	FinalizeReload (19000ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6423ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (244ms)
+			SetLoadedEditorAssemblies (63ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1154ms)
+			ProcessInitializeOnLoadAttributes (4741ms)
+			ProcessInitializeOnLoadMethodAttributes (196ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (77ms)
+Refreshing native plugins compatible for Editor in 44.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (83.9 KB). Loaded Objects now: 3998.
+Memory consumption went from 127.8 MB to 127.8 MB.
+Total: 22.798800 ms (FindLiveObjects: 1.269400 ms CreateObjectMapping: 0.665100 ms MarkObjects: 20.493300 ms  DeleteObjects: 0.367400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.947 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.047 seconds
+Domain Reload Profiling: 12980ms
+	BeginReloadAssembly (1061ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (42ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (205ms)
+	RebuildCommonClasses (310ms)
+	RebuildNativeTypeToScriptingClass (120ms)
+	initialDomainReloadingComplete (200ms)
+	LoadAllAssembliesAndSetupDomain (2239ms)
+		LoadAssemblies (2666ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (59ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (70ms)
+			ResolveRequiredComponents (53ms)
+	FinalizeReload (9050ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4717ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (166ms)
+			SetLoadedEditorAssemblies (35ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (885ms)
+			ProcessInitializeOnLoadAttributes (3434ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (59ms)
+Refreshing native plugins compatible for Editor in 37.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (67.6 KB). Loaded Objects now: 4001.
+Memory consumption went from 127.8 MB to 127.8 MB.
+Total: 16.223200 ms (FindLiveObjects: 0.672400 ms CreateObjectMapping: 0.391700 ms MarkObjects: 14.840300 ms  DeleteObjects: 0.315000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Import Request.
+  Time since last request: 851.104962 seconds.
+  path: Assets/HorizontalPoleMovement.cs
+  artifactKey: Guid(5ba286e17c1cadc498ccdbfb4a1c45f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HorizontalPoleMovement.cs using Guid(5ba286e17c1cadc498ccdbfb4a1c45f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a4f8a86142cb81cc0f1f032cf3b4d44b') in 0.010168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.445 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 14.912 seconds
+Domain Reload Profiling: 17350ms
+	BeginReloadAssembly (719ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (138ms)
+	RebuildCommonClasses (181ms)
+	RebuildNativeTypeToScriptingClass (65ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (1347ms)
+		LoadAssemblies (1694ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (65ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (14917ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6582ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (338ms)
+			SetLoadedEditorAssemblies (94ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1449ms)
+			ProcessInitializeOnLoadAttributes (4492ms)
+			ProcessInitializeOnLoadMethodAttributes (187ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (71ms)
+Refreshing native plugins compatible for Editor in 42.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3478 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (91.9 KB). Loaded Objects now: 4004.
+Memory consumption went from 127.6 MB to 127.5 MB.
+Total: 21.829900 ms (FindLiveObjects: 0.952800 ms CreateObjectMapping: 0.405200 ms MarkObjects: 18.499600 ms  DeleteObjects: 1.966700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.197 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.750 seconds
+Domain Reload Profiling: 12940ms
+	BeginReloadAssembly (685ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (134ms)
+	RebuildCommonClasses (186ms)
+	RebuildNativeTypeToScriptingClass (58ms)
+	initialDomainReloadingComplete (120ms)
+	LoadAllAssembliesAndSetupDomain (1137ms)
+		LoadAssemblies (1453ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (61ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (10755ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (7617ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (151ms)
+			SetLoadedEditorAssemblies (27ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1187ms)
+			ProcessInitializeOnLoadAttributes (5973ms)
+			ProcessInitializeOnLoadMethodAttributes (247ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (96ms)
+Refreshing native plugins compatible for Editor in 36.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (83.6 KB). Loaded Objects now: 4007.
+Memory consumption went from 127.8 MB to 127.8 MB.
+Total: 20.817400 ms (FindLiveObjects: 0.693600 ms CreateObjectMapping: 0.541600 ms MarkObjects: 19.097100 ms  DeleteObjects: 0.479800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.975 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.187 seconds
+Domain Reload Profiling: 13154ms
+	BeginReloadAssembly (1234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (327ms)
+	RebuildCommonClasses (219ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (152ms)
+	LoadAllAssembliesAndSetupDomain (1302ms)
+		LoadAssemblies (1902ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (65ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (10191ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5773ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (231ms)
+			SetLoadedEditorAssemblies (68ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1193ms)
+			ProcessInitializeOnLoadAttributes (4096ms)
+			ProcessInitializeOnLoadMethodAttributes (166ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (73ms)
+Refreshing native plugins compatible for Editor in 36.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (83.8 KB). Loaded Objects now: 4010.
+Memory consumption went from 127.8 MB to 127.8 MB.
+Total: 16.167000 ms (FindLiveObjects: 0.947700 ms CreateObjectMapping: 0.856800 ms MarkObjects: 14.058700 ms  DeleteObjects: 0.299600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.543 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.550 seconds
+Domain Reload Profiling: 9085ms
+	BeginReloadAssembly (723ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (148ms)
+	RebuildCommonClasses (180ms)
+	RebuildNativeTypeToScriptingClass (67ms)
+	initialDomainReloadingComplete (133ms)
+	LoadAllAssembliesAndSetupDomain (1429ms)
+		LoadAssemblies (1721ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (6553ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3549ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (109ms)
+			SetLoadedEditorAssemblies (32ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (629ms)
+			ProcessInitializeOnLoadAttributes (2662ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 29.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (67.7 KB). Loaded Objects now: 4013.
+Memory consumption went from 127.8 MB to 127.8 MB.
+Total: 12.258900 ms (FindLiveObjects: 0.769100 ms CreateObjectMapping: 0.476300 ms MarkObjects: 10.489800 ms  DeleteObjects: 0.518600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.959 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.001 seconds
+Domain Reload Profiling: 13945ms
+	BeginReloadAssembly (1163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (194ms)
+	RebuildCommonClasses (384ms)
+	RebuildNativeTypeToScriptingClass (108ms)
+	initialDomainReloadingComplete (206ms)
+	LoadAllAssembliesAndSetupDomain (2081ms)
+		LoadAssemblies (2725ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (40ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (54ms)
+	FinalizeReload (10003ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5012ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (144ms)
+			SetLoadedEditorAssemblies (39ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (833ms)
+			ProcessInitializeOnLoadAttributes (3869ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 27.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (67.7 KB). Loaded Objects now: 4016.
+Memory consumption went from 127.8 MB to 127.8 MB.
+Total: 14.927600 ms (FindLiveObjects: 0.838900 ms CreateObjectMapping: 0.430600 ms MarkObjects: 13.021300 ms  DeleteObjects: 0.633100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.886 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 11.892 seconds
+Domain Reload Profiling: 14769ms
+	BeginReloadAssembly (737ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (147ms)
+	RebuildCommonClasses (198ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (142ms)
+	LoadAllAssembliesAndSetupDomain (1737ms)
+		LoadAssemblies (2030ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (45ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (62ms)
+	FinalizeReload (11899ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5693ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (208ms)
+			SetLoadedEditorAssemblies (43ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1049ms)
+			ProcessInitializeOnLoadAttributes (4194ms)
+			ProcessInitializeOnLoadMethodAttributes (179ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (59ms)
+Refreshing native plugins compatible for Editor in 31.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (91.9 KB). Loaded Objects now: 4019.
+Memory consumption went from 127.9 MB to 127.8 MB.
+Total: 13.457700 ms (FindLiveObjects: 1.110100 ms CreateObjectMapping: 0.523600 ms MarkObjects: 11.578500 ms  DeleteObjects: 0.241700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.320 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.416 seconds
+Domain Reload Profiling: 10728ms
+	BeginReloadAssembly (720ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (133ms)
+	RebuildCommonClasses (182ms)
+	RebuildNativeTypeToScriptingClass (59ms)
+	initialDomainReloadingComplete (142ms)
+	LoadAllAssembliesAndSetupDomain (1203ms)
+		LoadAssemblies (1558ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (69ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (8421ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5018ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (156ms)
+			SetLoadedEditorAssemblies (44ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (910ms)
+			ProcessInitializeOnLoadAttributes (3739ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (51ms)
+Refreshing native plugins compatible for Editor in 43.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (67.7 KB). Loaded Objects now: 4022.
+Memory consumption went from 127.8 MB to 127.8 MB.
+Total: 16.760200 ms (FindLiveObjects: 0.815800 ms CreateObjectMapping: 1.084500 ms MarkObjects: 14.450600 ms  DeleteObjects: 0.405700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.608 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.699 seconds
+Domain Reload Profiling: 11247ms
+	BeginReloadAssembly (730ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (141ms)
+	RebuildCommonClasses (198ms)
+	RebuildNativeTypeToScriptingClass (59ms)
+	initialDomainReloadingComplete (230ms)
+	LoadAllAssembliesAndSetupDomain (1327ms)
+		LoadAssemblies (1696ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (58ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (8703ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5745ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (100ms)
+			SetLoadedEditorAssemblies (31ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1168ms)
+			ProcessInitializeOnLoadAttributes (4263ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (56ms)
+Refreshing native plugins compatible for Editor in 31.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (91.9 KB). Loaded Objects now: 4025.
+Memory consumption went from 127.9 MB to 127.8 MB.
+Total: 17.373700 ms (FindLiveObjects: 1.617500 ms CreateObjectMapping: 1.573300 ms MarkObjects: 13.640600 ms  DeleteObjects: 0.537900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.400 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.535 seconds
+Domain Reload Profiling: 11922ms
+	BeginReloadAssembly (717ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (140ms)
+	RebuildCommonClasses (187ms)
+	RebuildNativeTypeToScriptingClass (59ms)
+	initialDomainReloadingComplete (145ms)
+	LoadAllAssembliesAndSetupDomain (1276ms)
+		LoadAssemblies (1654ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (58ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (9538ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6122ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (109ms)
+			SetLoadedEditorAssemblies (26ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (584ms)
+			ProcessInitializeOnLoadAttributes (5193ms)
+			ProcessInitializeOnLoadMethodAttributes (189ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (67ms)
+Refreshing native plugins compatible for Editor in 183.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (83.7 KB). Loaded Objects now: 4028.
+Memory consumption went from 127.9 MB to 127.8 MB.
+Total: 25.965900 ms (FindLiveObjects: 1.332800 ms CreateObjectMapping: 0.791100 ms MarkObjects: 22.846700 ms  DeleteObjects: 0.990200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.634 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 12.017 seconds
+Domain Reload Profiling: 17634ms
+	BeginReloadAssembly (1369ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (54ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (282ms)
+	RebuildCommonClasses (754ms)
+	RebuildNativeTypeToScriptingClass (141ms)
+	initialDomainReloadingComplete (279ms)
+	LoadAllAssembliesAndSetupDomain (3071ms)
+		LoadAssemblies (3714ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (57ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (72ms)
+	FinalizeReload (12020ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5157ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (176ms)
+			SetLoadedEditorAssemblies (50ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1027ms)
+			ProcessInitializeOnLoadAttributes (3614ms)
+			ProcessInitializeOnLoadMethodAttributes (248ms)
+			AfterProcessingInitializeOnLoad (39ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (129ms)
+Refreshing native plugins compatible for Editor in 38.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (91.8 KB). Loaded Objects now: 4031.
+Memory consumption went from 127.9 MB to 127.8 MB.
+Total: 15.249200 ms (FindLiveObjects: 0.821300 ms CreateObjectMapping: 0.434400 ms MarkObjects: 13.636500 ms  DeleteObjects: 0.352700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.576 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.930 seconds
+Domain Reload Profiling: 10497ms
+	BeginReloadAssembly (690ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (145ms)
+	RebuildCommonClasses (200ms)
+	RebuildNativeTypeToScriptingClass (62ms)
+	initialDomainReloadingComplete (134ms)
+	LoadAllAssembliesAndSetupDomain (1478ms)
+		LoadAssemblies (1806ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (66ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (7933ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4125ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (168ms)
+			SetLoadedEditorAssemblies (78ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1103ms)
+			ProcessInitializeOnLoadAttributes (2660ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 17.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (67.6 KB). Loaded Objects now: 4034.
+Memory consumption went from 127.8 MB to 127.8 MB.
+Total: 13.477100 ms (FindLiveObjects: 1.246300 ms CreateObjectMapping: 0.845100 ms MarkObjects: 11.085200 ms  DeleteObjects: 0.296300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.963 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.519 seconds
+Domain Reload Profiling: 12471ms
+	BeginReloadAssembly (907ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (143ms)
+	RebuildCommonClasses (231ms)
+	RebuildNativeTypeToScriptingClass (83ms)
+	initialDomainReloadingComplete (189ms)
+	LoadAllAssembliesAndSetupDomain (2539ms)
+		LoadAssemblies (2863ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (36ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (71ms)
+	FinalizeReload (8522ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (122ms)
+			SetLoadedEditorAssemblies (46ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1005ms)
+			ProcessInitializeOnLoadAttributes (3018ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Refreshing native plugins compatible for Editor in 29.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (67.6 KB). Loaded Objects now: 4037.
+Memory consumption went from 127.9 MB to 127.8 MB.
+Total: 15.707200 ms (FindLiveObjects: 0.865900 ms CreateObjectMapping: 0.581500 ms MarkObjects: 13.994600 ms  DeleteObjects: 0.260300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.135 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.881 seconds
+Domain Reload Profiling: 19930ms
+	BeginReloadAssembly (869ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (141ms)
+	RebuildCommonClasses (527ms)
+	RebuildNativeTypeToScriptingClass (298ms)
+	initialDomainReloadingComplete (525ms)
+	LoadAllAssembliesAndSetupDomain (6827ms)
+		LoadAssemblies (7129ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (68ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (145ms)
+	FinalizeReload (10884ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (157ms)
+			SetLoadedEditorAssemblies (47ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (850ms)
+			ProcessInitializeOnLoadAttributes (3286ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Refreshing native plugins compatible for Editor in 29.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (67.7 KB). Loaded Objects now: 4040.
+Memory consumption went from 127.9 MB to 127.8 MB.
+Total: 15.583000 ms (FindLiveObjects: 0.983800 ms CreateObjectMapping: 0.698800 ms MarkObjects: 13.599100 ms  DeleteObjects: 0.296200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VerticalHorizontalControl.cs: ca0c201f815d6aeba6bf1e714ffef6f5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VacuumHead.cs: ecf27545f4d0de2d420c6b9649b2f387 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0e48a5f465c9ee9d253b0264af24402f -> 2af9c135e1ce8e60b97c0c487fa70f26
+  custom:scripting/monoscript/fileName/HorizontalPoleMovement.cs: 9d12931849b00bfa7cf075172f2921ed -> 
