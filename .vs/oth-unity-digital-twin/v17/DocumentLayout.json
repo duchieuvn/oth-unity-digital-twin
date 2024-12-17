@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OTH - AW\\Bridge Semester\\Industry 4.0 project\\Project File\\oth-unity-digital-twin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{319E5AA9-BCD7-BE03-9450-0032D0397AAF}|Assembly-CSharp.csproj|d:\\oth - aw\\bridge semester\\industry 4.0 project\\project file\\oth-unity-digital-twin\\assets\\scripts\\reverse belt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{319E5AA9-BCD7-BE03-9450-0032D0397AAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\reverse belt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{319E5AA9-BCD7-BE03-9450-0032D0397AAF}|Assembly-CSharp.csproj|D:\\OTH - AW\\Bridge Semester\\Industry 4.0 project\\Project File\\oth-unity-digital-twin\\assets\\scripts\\conveyerbelt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{319E5AA9-BCD7-BE03-9450-0032D0397AAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\conveyerbelt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reverse belt.cs",
+              "DocumentMoniker": "D:\\OTH - AW\\Bridge Semester\\Industry 4.0 project\\Project File\\oth-unity-digital-twin\\Assets\\Scripts\\Reverse belt.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Reverse belt.cs",
+              "ToolTip": "D:\\OTH - AW\\Bridge Semester\\Industry 4.0 project\\Project File\\oth-unity-digital-twin\\Assets\\Scripts\\Reverse belt.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Reverse belt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:37:20.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConveyerBelt.cs",
+              "DocumentMoniker": "D:\\OTH - AW\\Bridge Semester\\Industry 4.0 project\\Project File\\oth-unity-digital-twin\\Assets\\Scripts\\ConveyerBelt.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ConveyerBelt.cs",
+              "ToolTip": "D:\\OTH - AW\\Bridge Semester\\Industry 4.0 project\\Project File\\oth-unity-digital-twin\\Assets\\Scripts\\ConveyerBelt.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ConveyerBelt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T13:57:14.556Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
